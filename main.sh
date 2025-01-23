@@ -71,8 +71,6 @@ alpineproot() {
 
 		echo -e "nameserver 8.8.8.8\nnameserver 8.8.4.4" >$CONTAINER_PATH/etc/resolv.conf
 	fi
-
-	__start $@
 }
 
 __get_container_url() {
